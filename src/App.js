@@ -30,12 +30,15 @@ class App extends Component {
     return (
       <div>
         <div>{name === 'test입니다' ? '맞아' : '틀려'}</div>
+
+        {}
+
         {function() {
           if (name === 'test입니다') return <div>야호</div>;
         }}
-        {() => {
-          return <div>aa</div>;
-        }}
+        {(a => {
+          return <div>{a}</div>;
+        })('s')}
         {(function() {
           if (name === 'test입니다') return <div> 나와 </div>;
         })()}
