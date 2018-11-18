@@ -13,7 +13,7 @@ class App extends Component {
       paddong: '16px',
       color: 'white',
       fontSize: ['36px']
-    };
+    }; 
     */
 
     //JSX 형태를 리턴 해줘야함
