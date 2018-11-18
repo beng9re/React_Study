@@ -54,14 +54,6 @@ class App extends Component {
           return <div>{a}</div>;
 
 
-        })('s')}
-        {(function() {
-          if (name === 'test입니다') return <div> 나와 </div>;
-        })()}
-
-        {(() => {
-          if (name === 'test입니다') return <div> 뭐</div>;
-        })()}
   
    
     */
