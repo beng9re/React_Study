@@ -40,6 +40,19 @@ class App extends Component {
         }}
         {(a => {
           return <div className="App">{a}</div>;
+
+    return (
+      <div>
+        <div>{name === 'test입니다' ? '맞아' : '틀려'}</div>
+
+        {}
+
+        {function() {
+          if (name === 'test입니다') return <div>야호</div>;
+        }}
+        {(a => {
+          return <div>{a}</div>;
+
         })('s')}
         {(function() {
           if (name === 'test입니다') return <div> 나와 </div>;
