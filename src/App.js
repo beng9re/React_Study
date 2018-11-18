@@ -53,6 +53,7 @@ class App extends Component {
         {(a => {
           return <div>{a}</div>;
 
+
         })('s')}
         {(function() {
           if (name === 'test입니다') return <div> 나와 </div>;
@@ -61,7 +62,6 @@ class App extends Component {
         {(() => {
           if (name === 'test입니다') return <div> 뭐</div>;
         })()}
-
   
    
     */
